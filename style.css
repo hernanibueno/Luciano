@@ -140,6 +140,16 @@ section.contato{
     padding: 20px;
 }
 
+ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+}
+
 h2.contato{
     text-align: center;
     padding-bottom: 10px;
