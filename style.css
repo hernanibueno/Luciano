@@ -108,8 +108,8 @@ div.servicos >p{
     text-align: center;
     font-size: 2.5em;
     color: black;
-    padding: 10px;
-
+    padding: 5px;
+    margin: 10px;
 }
 
 div.servicos{
@@ -121,13 +121,12 @@ div.servicos{
 
 }
 
-div.servicos:hover{
-    filter: grayscale(90%)
-    
-}
 
 div.servicos:hover >p{
     display: block;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    border-radius: 10px;
 }
 
 
@@ -135,4 +134,32 @@ footer{
     background-color: rgb(12, 36, 12);
     text-align: center;
     color: white;
+}
+
+section.contato{
+    padding: 20px;
+}
+
+h2.contato{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p.contato{
+    text-align: center;
+}
+
+div.contato{
+    margin: 0px -20px 20px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.contato > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
